@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+
+    <!--<link rel="stylesheet" href="styles/bootstrap.css" />
+    <link rel="stylesheet" href="styles/BRS-Styles.css" />
+
+    <script type="text/javascript" src="scripts/jquery-1.11.0.js"></script>
+    <script type="text/javascript" src="scripts/bootstrap.js"></script>
+    <script type="text/javascript" src="scripts/BRS-Script.js"></script>
+    <script type="text/javascript" src="scripts/jquery.raty.min.js"></script>-->
+    <script type="text/javascript" src="scripts/BRS-Script.js"></script>
+    <title>Book Rating System</title>
+</head>
+<body>
+    <!--<div id="main-container" class="highlight">-->
+    <!-- <div id="header">
+            <nav class="navbar navbar-inverse" role="navigation">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+    <!-- <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Brand</a>
+                    </div>-->
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <!--<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Link</a></li>
+                            <li><a href="#">Link</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Separated link</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">One more separated link</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="navbar-form navbar-left" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search">
+                            </div>
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </form>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">Link</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Separated link</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>-->
+    <!-- /.navbar-collapse -->
+    <!--</div>-->
+    <!-- /.container-fluid -->
+    <!-- </nav>
+        </div>-->
+    <div id="main-content">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h2 class="panel-title"><b>New Releases</b></h2>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 box-book">
+                        <div class="thumbnail well well-sm">
+                            <img data-src="holder.js/300x200" src="images/books/HarryPotter.jpg" alt="..." />
+                            <div>
+                                <h4 class="book-title"><a data-book-id="b001">Harry Potter</a></h4>
+                                <div class="div-last-view">Last View <span class="badge">14-01-2013</span></div>
+                                <div class="div-views pull-left">Views <span class="badge">42</span></div>
+                                <div class="div-ratings" data-score="4"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 box-book">
+                        <div class="thumbnail well well-sm">
+                            <img data-src="holder.js/300x200" src="images/books/WhyYouWantToBeRich.jpg" alt="..." />
+                            <div>
+                                <h4 class="book-title"><a>Why you want to be rich</a></h4>
+                                <div class="div-last-view">Last View <span class="badge">14-01-2013</span></div>
+                                <div class="div-views pull-left">Views <span class="badge">42</span></div> 
+                                <div class="div-ratings  center-block" data-score="2"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 box-book">
+                        <div class="thumbnail well well-sm">
+                            <img data-src="holder.js/300x200" src="images/books/TheHungerGames.jpg" alt="..." />
+                            <div>
+                                <h4 class="book-title"><a>The Hunger Games</a></h4>
+                                <div class="div-last-view">Last View <span class="badge">14-01-2013</span></div>
+                                <div class="div-views pull-left">Views <span class="badge">42</span></div> 
+                                <div class="div-ratings" data-score="4.5"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h2 class="panel-title"><b>Most Viewed</b></h2>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 box-book">
+                        <div class="thumbnail well well-sm">
+                            <img data-src="holder.js/300x200" src="images/books/AChristmasCarol.jpg" alt="..." />
+                            <div>
+                                <h4 class="book-title"><a>A Christmas Carol</a></h4>
+                                <div class="div-last-view">Last View <span class="badge">14-01-2013</span></div>
+                                <div class="div-views pull-left">Views <span class="badge">42</span></div>
+                                <div class="div-ratings" data-score="2"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 box-book">
+                        <div class="thumbnail well well-sm">
+                            <img data-src="holder.js/300x200" src="images/books/Hobbit.jpg" alt="..." />
+                            <div>
+                                <h4 class="book-title"><a>The Hobbit</a></h4>
+                                <div class="div-last-view">Last View <span class="badge">14-01-2013</span></div>
+                                <div class="div-views pull-left">Views <span class="badge">42</span></div>
+                                <div class="div-ratings" data-score="4"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 box-book">
+                        <div class="thumbnail well well-sm">
+                            <img data-src="holder.js/300x200" src="images/books/ProfessorCalculus.jpg" alt="..." />
+                            <div>
+                                <h4 class="book-title"><a>Professor Calculus</a></h4>
+                                <div class="div-last-view">Last View <span class="badge">14-01-2013</span></div>
+                                <div class="div-views pull-left">Views <span class="badge">42</span></div>
+                                <div class="div-ratings" data-score="1"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="row-title">
+                <h3><b>Most Viewed</b></h3>
+            </div>
+            <hr />
+            <div class="col-sm-6 col-md-4 box-book">
+                <div class="thumbnail well well-sm">
+                    <img data-src="holder.js/300x200" src="images/sample.jpg" alt="..." />
+                    <div>
+                        <h4 class="book-title"><a>kjags kagfka kafgaf</a></h4>
+                        <div class="label label-default">Last View : 14-01-2013</div>
+                        <div class="div-ratings"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 box-book">
+                <div class="thumbnail well well-sm">
+                    <img data-src="holder.js/300x200" src="images/sample.jpg" alt="..." />
+                    <div>
+                        <h4 class="book-title"><a>kjags kagfka kafgaf</a></h4>
+                        <div class="label label-default">Last View : 14-01-2013</div>
+                        <div class="div-ratings"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 box-book">
+                <div class="thumbnail well well-sm">
+                    <img data-src="holder.js/300x200" src="images/sample.jpg" alt="..." />
+                    <div>
+                        <h4 class="book-title"><a>kjags kagfka kafgaf</a></h4>
+                        <div class="label label-default">Last View : 14-01-2013</div>
+                        <div class="div-ratings"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="row-title">
+                <h3><b>Most Viewed</b></h3>
+            </div>
+            <hr />
+            <div class="col-sm-6 col-md-4 box-book">
+                <div class="thumbnail well well-sm">
+                    <img data-src="holder.js/300x200" src="images/sample.jpg" alt="..." />
+                    <div>
+                        <h4 class="book-title"><a>kjags kagfka kafgaf</a></h4>
+                        <div class="label label-default">Last View : 14-01-2013</div>
+                        <div class="div-ratings"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 box-book">
+                <div class="thumbnail well well-sm">
+                    <img data-src="holder.js/300x200" src="images/sample.jpg" alt="..." />
+                    <div>
+                        <h4 class="book-title"><a>kjags kagfka kafgaf</a></h4>
+                        <div class="label label-default">Last View : 14-01-2013</div>
+                        <div class="div-ratings"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 box-book">
+                <div class="thumbnail well well-sm">
+                    <img data-src="holder.js/300x200" src="images/sample.jpg" alt="..." />
+                    <div>
+                        <h4 class="book-title"><a>kjags kagfka kafgaf</a></h4>
+                        <div class="label label-default">Last View : 14-01-2013</div>
+                        <div class="div-ratings"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--</div>-->
+</body>
+</html>

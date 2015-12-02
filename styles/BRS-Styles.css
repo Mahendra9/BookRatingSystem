@@ -1,0 +1,132 @@
+body {
+    /*background-color:#e7e7e7;*/
+    background-image: url("http://designm.ag/images/0809/ff2/5-full.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#main-container {
+    width: 980px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    border: 1px solid groove;
+    height: auto;
+}
+
+#main-content {
+    padding: 20px 55px;
+}
+
+a[class='navbar-link'] {
+    text-decoration: underline;
+}
+
+
+.row-title {
+    margin-left: 15px;
+}
+
+hr {
+    border-top-color: #DFDFDF;
+    margin: 5px 15px 15px;
+}
+
+.book-title {
+    text-decoration: underline;
+    text-align: center;
+}
+
+    .book-title a {
+        text-align: center;
+        cursor: pointer;
+    }
+
+.div-ratings {
+    float: right;
+}
+
+#img-lg {
+    width: 820px;
+    height: 350px;
+}
+
+.buy-info {
+    padding: 4px 15px;
+    font-size: 15px;
+}
+
+#div-description {
+    margin-top: 10px;
+}
+
+/* Overrides bootstrap - start*/
+
+.panel-body {
+    background-color: #f5f5f5;
+}
+
+.label {
+    float: left;
+    margin-top: 4px;
+}
+
+.div-last-view {
+    margin-bottom: 5px;
+}
+
+.div-views {
+    display: inline-block;
+}
+
+.thumbnail {
+    height: 280px;
+}
+
+    .thumbnail > img {
+        width: 270px;
+        height: 177px;
+    }
+
+.alert {
+    display: none;
+}
+
+#user-profile-pic {
+    height: 180px;
+    width: 190px;
+}
+
+#user-mail {
+    margin-bottom:0px;
+}
+
+/* Overrides bootstrap - end*/
+
+/* styles for user account page - start*/
+
+#user-contact-info {
+    display: inline;
+    float: left;
+    margin-right: 100px;
+}
+
+/* styles for user account page - end*/
+
+.right-inner-addon {
+    position: relative;
+}
+.right-inner-addon input {
+    padding-right: 30px;    
+}
+.right-inner-addon span {
+    position: absolute;
+    right: 0px;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+
+#contact-email {
+margin-top:25px;
+}

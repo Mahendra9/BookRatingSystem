@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles/bootstrap.css" />
+    <link rel="stylesheet" href="styles/BRS-Styles.css" />
+
+    <script type="text/javascript" src="scripts/jquery-1.11.0.js"></script>
+    <script type="text/javascript" src="scripts/bootstrap.js"></script>
+    <script type="text/javascript" src="scripts/jquery.raty.min.js"></script>
+    <script type="text/javascript" src="scripts/BRS-Script.js"></script>
+    <title>Book Rating System</title>
+</head>
+<body>
+    <div id="main-container" class="highlight center-block">
+        <div id="header">
+            <nav class="navbar navbar-inverse" role="navigation">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">BookPoint</a>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li id="li-home"><a href="index.html">Home</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Genres <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li class="active"><a href="Genre-Thriller.html">Thriller</a></li>
+                                    <li><a href="Genre-History.html">History</a></li>
+                                    <li><a href="Genre-Romance.html">Romance</a></li>
+                                </ul>
+                            </li>
+                            <li id="li-contact-us"><a href="ContactUs.html">Contact Us</a></li>
+                        </ul>
+                        <form class="navbar-form navbar-left" role="search">
+                            <div class="right-inner-addon ">
+                                <span class="glyphicon glyphicon-search"></span>
+                                <input type="text" class="form-control" placeholder="Search" /> 
+                            </div>
+                        </form>
+                        <p class="navbar-text navbar-right">Signed in as <a href="UserAccount.html" class="navbar-link">Mahendra Madhala</a></p>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-fluid -->
+            </nav>
+        </div>
+        <div id="content">
+            <div id="main-content">
+
+                <div class="row">
+                    <div class="row-title">
+                        <h3><b>Thriller</b></h3>
+                    </div>
+                    <hr />
+                    <div class="col-sm-6 col-md-4 box-book">
+                        <div class="thumbnail well well-sm">
+                            <img data-src="holder.js/300x200" src="images/books/TheComicKiller.jpg" alt="..." />
+                            <div>
+                                <h4 class="book-title"><a href="BookDetails.html?bookId=b009">The Comic Killer</a></h4>
+                                <div class="div-last-view">Last View <span class="badge">Feb-22-2014</span></div>
+                                <div class="div-views pull-left">Views <span class="badge">877</span></div>
+                                <div class="div-ratings" data-score="4.5"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 box-book">
+                        <div class="thumbnail well well-sm">
+                            <img data-src="holder.js/300x200" src="images/books/ToniBega.jpg" alt="..." />
+                            <div>
+                                <h4 class="book-title"><a href="BookDetails.html?bookId=b010">111 Numarul Fierei </a></h4>
+                                <div class="div-last-view">Last View <span class="badge">Mar-25-2013</span></div>
+                                <div class="div-views pull-left">Views <span class="badge">450</span></div>
+                                <div class="div-ratings" data-score="3"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 box-book">
+                        <div class="thumbnail well well-sm">
+                            <img data-src="holder.js/300x200" src="images/books/TheDepths.jpg" alt="..." />
+                            <div>
+                                <h4 class="book-title"><a href="BookDetails.html?bookId=b011">The Depths</a></h4>
+                                <div class="div-last-view">Last View <span class="badge">Jan-11-2013</span></div>
+                                <div class="div-views pull-left">Views <span class="badge">232</span></div>
+                                <div class="div-ratings" data-score="3.5"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 box-book">
+                        <div class="thumbnail well well-sm">
+                            <img data-src="holder.js/300x200" src="images/books/TheThingAboutScorpions.jpg" alt="..." />
+                            <div>
+                                <h4 class="book-title"><a>The thing about Scorpions</a></h4>
+                                <div class="div-last-view">Last View <span class="badge">Jun-11-2011</span></div>
+                                <div class="div-views pull-left">Views <span class="badge">190</span></div>
+                                <div class="div-ratings" data-score="3"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 box-book">
+                        <div class="thumbnail well well-sm">
+                            <img data-src="holder.js/300x200" src="images/books/TheGlassGuardian.jpg" alt="..." />
+                            <div>
+                                <h4 class="book-title"><a>The Glass Guardians</a></h4>
+                                <div class="div-last-view">Last View <span class="badge">Aug-19-2011</span></div>
+                                <div class="div-views pull-left">Views <span class="badge">490</span></div>
+                                <div class="div-ratings" data-score="4"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 box-book">
+                        <div class="thumbnail well well-sm">
+                            <img data-src="holder.js/300x200" src="images/books/TheHungerGames.jpg" alt="..." />
+                            <div>
+                                <h4 class="book-title"><a>The Hunger Games</a></h4>
+                                <div class="div-last-view">Last View <span class="badge">14-01-2013</span></div>
+                                <div class="div-views pull-left">Views <span class="badge">689</span></div>
+                                <div class="div-ratings" data-score="2"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="alert alert-danger"></div>
+    </div>
+</body>
+</html>

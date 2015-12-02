@@ -1,0 +1,163 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles/bootstrap.css" />
+    <link rel="stylesheet" href="styles/BRS-Styles.css" />
+
+    <script type="text/javascript" src="scripts/jquery-1.11.0.js"></script>
+    <script type="text/javascript" src="scripts/bootstrap.js"></script>
+    <script type="text/javascript" src="scripts/jquery.raty.min.js"></script>
+    <script type="text/javascript" src="scripts/BRS-Script.js"></script>
+    <title>Book Rating System</title>
+</head>
+<body>
+    <div id="main-container" class="highlight center-block">
+        <div id="header">
+            <nav class="navbar navbar-inverse" role="navigation">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">BookPoint</a>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li id="li-home"><a href="index.html">Home</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Genres <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="Genre-Thriller.html">Thriller</a></li>
+                                    <li><a href="Genre-History.html">History</a></li>
+                                    <li><a href="Genre-Romance.html">Romance</a></li>
+                                </ul>
+                            </li>
+                            <li id="li-contact-us"><a href="ContactUs.html">Contact Us</a></li>
+                        </ul>
+                        <form class="navbar-form navbar-left" role="search">
+                            <div class="right-inner-addon ">
+                                <span class="glyphicon glyphicon-search"></span>
+                                <input type="text" class="form-control" placeholder="Search" /> 
+                            </div>
+                        </form>
+                        <p class="navbar-text navbar-right">Signed in as <a href="UserAccount.html" class="navbar-link">Mahedra Madhala</a></p>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-fluid -->
+            </nav>
+        </div>
+        <div id="content">
+            <div id="main-content">
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Profile</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                                <img id="user-profile-pic" class="media-object" src="images/profile_pic.jpg" alt="..." />
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">Mahendra Madhala</h4>
+                                <div id="user-contact-info">
+                                    <address>
+                                        5221 millenia blvd<br>
+                                        Apt #111<br>
+                                        Orlando, FL 32839<br>
+                                        <abbr title="Phone">P:</abbr>
+                                        407-873-7551
+                                    </address>
+
+                                    <address id="user-mail">
+                                        <strong>Full Name: Mahendra Madhala</strong><br>
+                                        <a href="mailto:#">madhala.mahendra@gmail.com</a>
+                                    </address>
+                                </div>
+                                <div id="user-site-info">
+                                    <br />
+                                    Number of visits : 550 <br />
+                                    Books Owned : 7
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Owned books</h3>
+                    </div>
+
+                    <!-- Table -->
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Title</th>
+                                <th>Author</th>
+                                <th>Your Rating</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td><a  href="BookDetails.html?bookId=b001">Harry Potter and the Philosopher's Stone</a></td>
+                                <td>J. K. Rowling</td>
+                                <td><div class="div-ratings pull-left" data-score="3" ></div></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td><a  href="BookDetails.html?bookId=b003">Love me</a></td>
+                                <td>Rachel Shukert</td>
+                                <td><div class="div-ratings pull-left" data-score="4"></div></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td><a  href="BookDetails.html?bookId=b004"> Christmas Carol</a></td>
+                                <td>Charles Dickens</td>
+                                <td><div class="div-ratings pull-left" data-score="3.5"></div></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td><a  href="BookDetails.html?bookId=b005">The Hobbit</a></td>
+                                <td>J.R.R. Tolkien</td>
+                                <td><div class="div-ratings pull-left" data-score="2"></div></td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td><a  href="BookDetails.html?bookId=b011">The Depths</a></td>
+                                <td>Nick Thacker</td>
+                                <td><div class="div-ratings pull-left" data-score="4"></div></td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td><a  href="BookDetails.html?bookId=b012">Amnicon</a></td>
+                                <td>katy Pierce</td>
+                                <td><div class="div-ratings pull-left" data-score="4.5"></div></td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td><a href="BookDetails.html?bookId=b014" >What is this thing called Love</a></td>
+                                <td>Bill Morgan</td>
+                                <td><div class="div-ratings pull-left" data-score="3"></div></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+        <div class="alert alert-danger"></div>
+    </div>
+</body>
+</html>
